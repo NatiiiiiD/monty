@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * the_rotl - The function that rotates the tail to the top
+ * get_rotl - The function that rotates the tail to the top
  * @stack: The pointer to the top of the stack
  * @line_number: is where the line number appears
  * Description: 13. rotl
@@ -9,7 +9,7 @@
  * 1. is upon success, nothing
  * 2. is  upon fail, EXIT_FAILURE
  */
-void the_rotl(stack_t **stack, unsigned int line_number)
+void get_rotl(stack_t **stack, unsigned int line_number)
 {
 	stack_t *first, *last;
 

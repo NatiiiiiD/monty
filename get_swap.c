@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * the_swap - The function that swaps the top two elements on the stack
+ * get_swap - The function that swaps the top two elements on the stack
  * @stack: The pointer to the top of the stack
  * @line_number: is where the line number appears
  * Description: 3. swap
@@ -9,7 +9,7 @@
  * 1. is upon success, nothing
  * 2. is upon fail, EXIT_FAILURE
  */
-void the_swap(stack_t **stack, unsigned int line_number)
+void get_swap(stack_t **stack, unsigned int line_number)
 {
 	stack_t *first, *second;
 

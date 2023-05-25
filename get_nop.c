@@ -2,7 +2,7 @@
 
 
 /**
- *  the_nop - Appears when no operation present
+ *  get_nop - Appears when no operation present
  *
  *  @stack: is the header of stack
  *
@@ -12,7 +12,7 @@
  */
 
 
-void the_nop(stack_t **stack, unsigned int line_number)
+void get_nop(stack_t **stack, unsigned int line_number)
 {
 
 	(void) stack;

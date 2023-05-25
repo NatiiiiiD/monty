@@ -35,7 +35,7 @@ typedef struct stack_s
  * @opcode: the opcode
  * @f: function to handle the opcode
  *
- * Description: opcode and its function
+ * Description: it about opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct instruction_s
@@ -52,23 +52,23 @@ void (*operator_function)(stack_t **, unsigned int);
 void (*go(char *op_f, unsigned int l, stack_t **s))(stack_t**, unsigned int);
 
 
-void the_push(stack_t **stack, unsigned int line_number, char *temp);
-void the_pall(stack_t **stack, unsigned int line_number);
-void the_pint(stack_t **stack, unsigned int line_number);
-void the_pop(stack_t **stack, unsigned int line_number);
-void the_swap(stack_t **stack, unsigned int line_number);
-void the_add(stack_t **stack, unsigned int line_number);
-void the_nop(stack_t **stack, unsigned int line_number);
-void the_sub(stack_t **stack, unsigned int line_number);
-void the_div(stack_t **stack, unsigned int line_number);
-void the_mul(stack_t **stack, unsigned int line_number);
-void the_mod(stack_t **stack, unsigned int line_number);
-void the_rotl(stack_t **stack, unsigned int line_number);
-void the_pchar(stack_t **stack, unsigned int line_number);
-void the_rotr(stack_t **stack, unsigned int line_number);
-void the_pstr(stack_t **stack, unsigned int line_number);
+void get_push(stack_t **stack, unsigned int line_number, char *temp);
+void get_pall(stack_t **stack, unsigned int line_number);
+void get_pint(stack_t **stack, unsigned int line_number);
+void get_pop(stack_t **stack, unsigned int line_number);
+void get_swap(stack_t **stack, unsigned int line_number);
+void get_add(stack_t **stack, unsigned int line_number);
+void get_nop(stack_t **stack, unsigned int line_number);
+void get_sub(stack_t **stack, unsigned int line_number);
+void get_div(stack_t **stack, unsigned int line_number);
+void get_mul(stack_t **stack, unsigned int line_number);
+void get_mod(stack_t **stack, unsigned int line_number);
+void get_rotl(stack_t **stack, unsigned int line_number);
+void get_pchar(stack_t **stack, unsigned int line_number);
+void get_rotr(stack_t **stack, unsigned int line_number);
+void get_pstr(stack_t **stack, unsigned int line_number);
 
-void the_free(stack_t *stack);
+void get_free(stack_t *stack);
 int _isdigit(char *str);
 
 

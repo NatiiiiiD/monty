@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * the_push - the function will push the element on to top of the stack
+ * get_push - the function will push the element on to top of the stack
  * @stack: is pointer to the top of the stack
  * @line_number: is the place where the line number appears
  * @temp: Shows ointer to instruction
@@ -10,7 +10,7 @@
  * 1. is upon success, nothing
  * 2. is upon fail, EXIT_FAILURE
  */
-void the_push(stack_t **stack, unsigned int line_number, char *temp)
+void get_push(stack_t **stack, unsigned int line_number, char *temp)
 {
 
 	stack_t *new_top;

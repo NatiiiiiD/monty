@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * the_pop - The function that pops the top element of the stack
+ * get_pop - The function that pops the top element of the stack
  * @stack: The pointer to the top of the stack
  * @line_number: is where the line number appears
  * Description: 2. pop

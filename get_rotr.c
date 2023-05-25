@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- *  the_rotr - Will rotate the right
+ *  get_rotr - Will rotate the right
  *
  *  @stack: is the stack
  *
@@ -9,7 +9,7 @@
  *
  *  Return: is always on void
  */
-void the_rotr(stack_t **stack, unsigned int line_number)
+void get_rotr(stack_t **stack, unsigned int line_number)
 {
 	stack_t *first, *last;
 

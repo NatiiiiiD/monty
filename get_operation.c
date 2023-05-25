@@ -16,20 +16,20 @@ void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 	int count;
 
 	instruction_t operation[] = {
-		{"pall", the_pall},
-		{"add", the_add},
-		{"pint", the_pint},
-		{"swap", the_swap},
-		{"pop", the_pop},
-		{"sub", the_sub},
-		{"div", the_div},
-		{"mul", the_mul},
-		{"mod", the_mod},
-		{"nop", the_nop},
-		{"rotl", the_rotl},
-		{"rotr", the_rotr},
-		{"pchar", the_pchar},
-		{"pstr", the_pstr},
+		{"pall", get_pall},
+		{"add", get_add},
+		{"pint", get_pint},
+		{"swap", get_swap},
+		{"pop", get_pop},
+		{"sub", get_sub},
+		{"div", get_div},
+		{"mul", get_mul},
+		{"mod", get_mod},
+		{"nop", get_nop},
+		{"rotl", get_rotl},
+		{"rotr", get_rotr},
+		{"pchar", get_pchar},
+		{"pstr", get_pstr},
 		{NULL, NULL}
 	};
 
